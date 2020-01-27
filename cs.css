@@ -1,6 +1,5 @@
 body{
-  background-color: magenta;
-    background-image: ;
+      background-image: url("images/imgs7.jpg") ;
 }
 .center{
   position: relative;
@@ -9,4 +8,5 @@ body{
   font-size: 28px;
   font-style: normal;
   font-family:serif;
+  text-decoration-color: white;
 }
