@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Image gallery</title>
+
+    <link rel="stylesheet" href="cs.css">
+
+
+  </head>
+
+  <body>
+    <form class="center" id="move">
+    <div>
+      <p>Enter principal    <input type="number" id="principal" value=""></input> </p>
+    </div>
+<br/>
+    <div>
+      <p>Enter anual addition <input type="number" id="anualAddition"></input> </p>
+    </div>
+<br/>
+    <div>
+      <p>Enter number of years <input type="number" id="numberOfYears"></input> </p>
+    </div>
+<br/>
+        <div>
+          <p>Enter interestRate <input type="number" id="interestRate"></input> </p>
+        </div>
+<br/>
+    <div>
+      <p>Anula roll over  <input type="number" id="rollOver"></input> how many times would the investment roll over in a year </p>
+    </div>
+<br/>
+    <div>
+      <p>Make additions at <input type="radio" name="type" id="start">Start</input> of the year</p>
+    </div>
+<br/>
+    <div>
+      <p>Make additions at <input  type="radio" name="type" id="end">End</input> of the year</p>
+    </div>
+<br/>
+    <div>
+       <h2 id="result" type="number"> </h2>
+    </div>
+<br/>
+    <div>
+      <button type="button" onclick="finalResult()" id="showResult">Result</button>
+      <button>Clear</button>
+    </div>
+  </form>
+
+  <script src="cs.js"></script>
+  </body>
+
+  </html>

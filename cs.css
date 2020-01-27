@@ -1,0 +1,12 @@
+body{
+  background-color: magenta;
+    background-image: ;
+}
+.center{
+  position: relative;
+
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-family:serif;
+}
